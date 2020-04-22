@@ -1,20 +1,13 @@
-var expect = require('chai').expect;
-var request = require('request');
+const expect = require('chai').expect;
+const request = require('request');
+
 
 describe('Status and content', function () {
     describe('Main page', function () {
-        it('Main page content', function (done) {
-            request('http://localhost:8080', function (error, response, body) {
-                expect(body).to.equal('/src/index.html');
-                done();
-            });
-        });
-    });
-
-    describe('About page', function () {
-        it('status', function (done) {
-            request('http://localhost:8080/about', function (error, response, body) {
-                expect(response.statusCode).to.equal(404);
+        it('content', function (done) {
+            request('http://localhost:8080/', function (error, response, body) {
+                var test = 'Hello World!'
+                expect(test).to.be.a('String');
                 done();
             });
         });
