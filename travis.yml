@@ -3,7 +3,7 @@ language: node_js
 
 # Versão que a aplicação suporta.
 node_js:
-  - "stable"
+  - "12.16.1"
 
 # Defini o script de Teste que deve rodar toda vez que o código for alterado.
 script:
