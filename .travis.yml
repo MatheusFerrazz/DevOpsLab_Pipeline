@@ -1,21 +1,12 @@
-# Linguagem Utilizada para Desenvolver a Aplicação
 language: node_js
-
-# Versão que a aplicação suporta.
 node_js:
-  - "node"
-
-# Faz a instalação com Sudo, para ter privilégio de Super Usuário.
-sudo:
-    false
-
-# Defini o script de Teste que deve rodar toda vez que o código for alterado.
+- node
+sudo: false
 script:
-  - npm test
-
-# Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
+- npm test
 deploy:
   provider: heroku
-  api-key: 
-    secure: HEROKU_API_KEY
+  api_key:
+    secure: tT1wXnoL1QkSzZ5SpoX5EdYH8t0oY9zfjMz7p4AjaGwl0PriCEUA0RotgW2R8NwfAJLWBaSJM8CP4yHXwqAl3j3GwK+sQyyEBKv5otNlgzrYUi80A+UI9e7ciRi98+W1Athzsy0CSiu+G+n9is7I9Ti3k3PQbvz8t5VIJDcRBiaBrH1CjKpKEokDFiBscnNDftDNbKburmIpg/4JyeRBIurFlTf8ZyPnRMde5pCfQVRxj2sDJ7d0gSnfQAbQKnpV64GtVZUbbeklNNHmkgrZTe9hKz6U6TxBalvA/KBLq70O5Ij8NZFVKT8FQlqMhcIWVC0f4cv2P3MhF/bL5xI8tT/TOJE/WT+i0D5RLyxVRSj+3g++RjvdEy67kf24VU2tPsQT/pABO417L0I4Cgtwiv43YWZttBfwAaDZ74clv4kAfGzH9C79C/90bgXtXi1s5FtyL9TCLfhPIC0fvNxO3CE+oXbMu2sCSstFrhkBKK3ZVrdUtvK2GLQhRu78Sp8Ozu88nNrP8QmdODWsGmcQOWhtBbE42WeV6yIRgkIUlFw0tcdR2Z8min5iJMCtgm9SgtPKKoH5pmTaIIQQoT+LBBPdV2IP2edXQcOOzRxOdhmoOFX49NVhigbMs1db7y252CbM9qKYiX2ZsiBX2v0JsvasIq88kkUh7aCnLuPu5GQ=
   app: devopslab-nodejs
+  
