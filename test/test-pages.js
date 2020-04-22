@@ -9,7 +9,6 @@ describe('Status and content', function () {
                 done();
             });
         });
-
     });
 
     describe('About page', function () {
@@ -19,6 +18,5 @@ describe('Status and content', function () {
                 done();
             });
         });
-
     });
 });

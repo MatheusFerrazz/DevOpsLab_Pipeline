@@ -5,6 +5,7 @@ language: node_js
 node_js:
   - "node"
 
+# Faz a instalação com Sudo, para ter privilégio de Super Usuário.
 sudo:
     false
 
