@@ -5,7 +5,7 @@ describe('Status and content', function () {
     describe('Main page', function () {
         it('Main page content', function (done) {
             request('http://localhost:8080', function (error, response, body) {
-                expect(__filename).to.equal("/src/index.html");
+                expect(body).to.equal('/src/index.html');
                 done();
             });
         });
