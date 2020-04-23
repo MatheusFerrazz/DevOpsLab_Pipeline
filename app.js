@@ -13,7 +13,8 @@ app.get('/', function (req, res) {
 //Public
 app.use(express.static(path.join(__dirname, "public")))
 
-//Launch listening server on port 8080
-app.listen(process.env.PORT, function () {
-    console.log('App listening on port 8080!')
+//Launch listening server on port 8888
+const PORT = process.env.PORT || 8888
+app.listen(PORT, () => {
+    console.log('App listening!')
 })

@@ -4,7 +4,8 @@
   "description": "Test pipeline DevOps",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node app.js"
   },
   "author": "Matheus Ferraz",
   "license": "ISC",

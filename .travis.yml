@@ -7,6 +7,6 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: "$HEROKU_API_KEY"
+    secure: "owTNr/LuxOXj+yxPlTxpQFw54a8pKpbNLTf8erTU58ApB9EQLYGWunhhfzODbAJr6p5WIv87Bmpg87WJQwGj/8CTPAMF+Exqn07c4h14hHDc3d6EK41Ed/tWbFAgZFJjMzasP1ld73+ulJFKSm4u/a34uPZ6v2//HIegn/TkRyaC/ZzDOuewSlCFS3H0y5UsH2wkOWUGCcx0B9YIBff+/khWO6JsdaRwPAxWTZ8y2sGEMcOnGsequW6ZPRhYOQeumfrcpcIyy79JYkXaWXAYTtlpTr+jQtcN5Kj9dFJnmRu7KyXUqnMB1fFtVwHBYagVwFT0jeRE+9lnj1oTlx2s9zZ1737PsHdJfF2oztjrJPaZ25gPANW9o0LoicpP/WrUlL0XUAhRGYwQMvClN51JTiNeO/Umu3EPfQMOcEg/I5OKTIO/Jn9ceb5t1TL1SaW1kX8DF5sq7micWqfqmYod8yl9K28zDpfo6CtceWTIFukxiYeMFRggK0E8RA6h1zJ6irgdz1jnAICIIZrSbRH8ODUQC/gMBy0UFIeQS4WgWGsQzBT0yB+71NfF2DCWd7OinSQd9zLp1aLZEmZkzZF3irFnU/8PjooS7CPjBV00nE6VpHJYvFI0CbJO8lup/L+qvpju0fZp/oS2SNzVc00n/VK8c7c1baqdZfGPu35ZGAU="
   app: devopslab-nodejs
   
